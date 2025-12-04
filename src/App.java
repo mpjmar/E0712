@@ -25,9 +25,9 @@ public class App {
 
     public static void imprimeTabla(int array[]) {
         repeatBorde("┌────────", "┬─────", "┐", array.length);
-        repeatIndice("│ Indice ", "│%4s ", "│", array);
+        repeatIndice("│ Indice ", "│%4d ", "│", array);
         repeatBorde("├────────", "┼─────", "┤", array.length);
-        repeatContenido("│ Valor  ", "│%4s ", "│",array);
+        repeatContenido("│ Valor  ", "│%4d ", "│",array);
         repeatBorde("└────────", "┴─────", "┘", array.length);
     }
 
@@ -55,7 +55,7 @@ public class App {
     // REPASAR!!
     //public static int[] desplazaArrayDcha(int array[], int posInic, int posFin) {
     //    int copia[] = array;
-    }
+    //}
     
     public static int[] rotaArray(int array[], int posInic, int posFin) {
         int temp = array[posInic];
