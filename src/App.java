@@ -52,6 +52,11 @@ public class App {
         System.out.println(dcha);
     }
 
+    // REPASAR!!
+    //public static int[] desplazaArrayDcha(int array[], int posInic, int posFin) {
+    //    int copia[] = array;
+    }
+    
     public static int[] rotaArray(int array[], int posInic, int posFin) {
         int temp = array[posInic];
         for (int i = posInic; i > 0; i--)
